@@ -34,8 +34,8 @@ export default function DashboardPage() {
       <div className="dashboard-card">
         <header className="dashboard-header">
           <div>
-            <p className="dashboard-subtitle">Protected dummy page</p>
-            <h1>Welcome back, {user?.name || 'user'}.</h1>
+            <p className="dashboard-subtitle">Dashboard</p>
+            <h1>Welcome back, {user?.name || 'User'}.</h1>
           </div>
           <button className="dashboard-signout" onClick={() => { signOut(); navigate('/login'); }}>
             Sign out

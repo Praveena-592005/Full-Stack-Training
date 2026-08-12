@@ -6,7 +6,7 @@ export default function AuthForm({ title, buttonText, children, onSubmit, error 
       <div className="auth-card">
         <div className="auth-header">
           <h1>{title}</h1>
-          <p>Secure access with JWT-based auth and a professional interface.</p>
+          <p>Enter your credentials to continue to your dashboard.</p>
         </div>
         <form className="auth-form" onSubmit={onSubmit}>
           {children}
